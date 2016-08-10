@@ -66,8 +66,9 @@ p,h3,h1{
 .top_image {
     height:1200px;
     width: 100%;
-    padding-top:350px;
+    padding-top:200px;
     padding-bottom:50px;
+
     overflow:hidden;
 }
 
@@ -116,7 +117,7 @@ section {
     color:#fff;
     background-size:cover;
     width: 100%;
-    height: auto;
+    height: 1200px;
 }
   
 .bg-2 {
@@ -255,5 +256,33 @@ text-align: left;
 
 p.contact-form{
     color: #fff;
+}
+
+
+
+/************* MEDIA QUERIES ************/
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+
+    .top_image {
+    height:1200px;
+    width: 100%;
+    padding-top:200px;
+    padding-bottom:50px;
+
+    overflow:hidden;
+}
+
 }
 
