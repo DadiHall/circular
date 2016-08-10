@@ -1,16 +1,7 @@
-class PagesController < ApplicationController
-  def index
-  	@contact = Contact.new
+class ContactsController < ApplicationController
+  def new
+    @contact = Contact.new
   end
-
-  def energy_anal
-  end
-
-  def lca
-  end
-
-
-  
 
   def create
     @contact = Contact.new(params[:contact])

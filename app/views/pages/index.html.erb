@@ -10,9 +10,9 @@
 <div >
 <div class="container bg_text1">
 <hr class="">
-<div class="row">
-        <h1 class="text-center">Our Mission</h1>
-        <p>The aim of Circular is to provide small and medium sized firms the ability to assess the environmental performance of their products, systems or services. By the means of life cycle assessment (LCA), and a solid foundation from the staff at Circular, we can help firms addressing sustainability issues. Firms that have a strong sustainability policy have further more been shown to perform better than their counterparts economically, this is the result of many factors that eventually benefit the operations of firms.
+<div class="container">
+        <h1 class="text-center mission">Our Mission</h1>
+        <p class="mission">The aim of Circular is to provide small and medium sized firms the ability to assess the environmental performance of their products, systems or services. By the means of life cycle assessment (LCA), and a solid foundation from the staff at Circular, we can help firms addressing sustainability issues. Firms that have a strong sustainability policy have further more been shown to perform better than their counterparts economically, this is the result of many factors that eventually benefit the operations of firms.
 </p>
 
     </div>
@@ -118,29 +118,7 @@
 
     <p class="lead"></p>
 
-    <div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1">
-      
-      <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-      </p>
-      
-      <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-      </p>
-      
-      <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-      </p>
-      
-      
-      <div class="submit">
-        <input type="submit" value="SEND" id="button-blue"/>
-        <div class="ease"></div>
-      </div>
-    </form>
-  </div>
+    <%= render 'contacts/new' %>
 </section>
 <!--/parallax 2-->
 
